@@ -1,0 +1,160 @@
+*{
+    font-family:"Poppins" , sans-serif ;
+    margin: 0px;
+ }
+
+body{
+   background: url(/img/foggy-shot-floating-torii-miyajima-japan-during-rain.jpg) center fixed;
+   background-size: cover ;
+}
+
+::-webkit-scrollbar{
+width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+   background: rgb(250, 188, 96);
+   border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+   background: white;
+}
+
+::-webkit-scrollbar-track{
+   background:rgba(0, 0, 0, 0.882);
+}
+
+.elmt{
+   display: flex;
+   justify-content: space-between;
+   border: solid transparent;
+   margin: 10px;
+}
+
+.entete{
+   border: solid 1px transparent;
+   background-color: rgb(11, 8, 3);
+   display: flex;
+   border-bottom: 2px solid rgb(250, 188, 96);
+}
+
+#logo{
+   margin: 10px;
+   display: flex;
+}
+
+#tky{
+   margin-top: 15px;
+}
+#tky a{
+   text-decoration: none;
+   color: rgb(250, 188, 96);
+}
+#tky a:hover{
+   color: white;
+}
+
+nav{
+   margin: auto;
+   margin-right: 10px;
+   justify-content: flex-end;  
+}
+
+#navigation a{
+    font-size: 25px;
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(250, 188, 96);
+}
+
+#navigation a:hover{
+   color: white;
+   background-color: rgba(255, 255, 255, 0);
+   border-bottom: solid rgb(250, 188, 96);
+}
+
+.contenu{
+   border: 3px solid rgba(0, 0, 0, 0.101);
+   backdrop-filter: blur(2px);
+   margin: 10px;
+   height: 680px;
+   color: rgb(2, 2, 2);
+   overflow: auto;
+}
+
+#contenu1{
+   
+   border: 1px;
+   text-align: center;
+}
+h1{
+   margin: 10px;
+   color: rgb(250, 188, 96);
+   text-align: center;
+   text-decoration: solid;
+}
+
+#contenu2{
+   border: solid transparent;
+   text-align: center;
+   color: rgb(4, 4, 4);
+}
+
+.top{
+   border: solid transparent;
+   margin-top: 20px;
+}
+
+#img{
+   display: flex;
+   border: solid 3px transparent;
+   border-radius: 10px;
+   height: 492px;
+   width: 1400px;
+   margin: auto;
+   overflow: auto;
+}
+
+#img::-webkit-scrollbar{
+   height: 12px;
+}
+
+#img::-webkit-scrollbar-track{
+   background: transparent;
+}
+
+#img::-webkit-scrollbar-thumb{
+   background: rgb(250, 188, 96);
+   border-radius: 10px;
+}
+
+#img::-webkit-scrollbar-thumb:hover{
+   background: white;
+}
+
+#photo{
+   border: solid 1px transparent;
+   width: 698px;
+   height: 475px;
+   border-radius: 20px;
+}
+
+table{
+   width: 500px;
+   float: left;
+   color: white;
+}
+table a{
+   text-decoration: none;
+   color: rgb(250, 188, 96);
+}
+
+table a:hover{
+   color: black;
+}
+
+#crt{
+   width: 250px;
+   float: right;
+}

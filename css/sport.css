@@ -1,0 +1,258 @@
+*{
+    font-family:"Poppins" , sans-serif ;
+    margin: 0px;
+ }
+
+body{
+   background: url(/img/foggy-shot-floating-torii-miyajima-japan-during-rain.jpg) center fixed;
+   background-size: cover ;
+}
+
+::-webkit-scrollbar{
+   width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+   background: rgb(250, 188, 96);
+   border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+   background: white;
+}
+
+::-webkit-scrollbar-track{
+   background:rgba(0, 0, 0, 0.882);
+}
+
+.elmt{
+    display: flex;
+   justify-content: space-between;
+   border: solid transparent;
+   margin: 10px;
+}
+
+.entete{
+   border: solid 1px transparent;
+   background-color: rgb(11, 8, 3);
+   display: flex;
+   border-bottom: 2px solid rgb(250, 188, 96);
+}
+
+#logo{
+   margin: 10px;
+   display: flex;
+}
+
+#tky{
+   margin-top: 15px;
+}
+#tky a{
+   text-decoration: none;
+   color: rgb(250, 188, 96);
+}
+
+#tky a:hover{
+    color: white;
+ }
+
+nav{
+   margin: auto;
+   margin-right: 10px;
+   justify-content: flex-end;  
+}
+
+#navigation a{
+    font-size: 25px;
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(250, 188, 96);
+}
+
+#navigation a:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: solid rgb(250, 188, 96);
+}
+
+.contenu{
+   border: 3px solid rgba(0, 0, 0, 0.101);
+   backdrop-filter: blur(2px);
+   margin: auto;
+   height: 1255px;
+   color: rgb(2, 2, 2);
+   overflow: auto;
+}
+.cnt{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenu1{
+   
+   border: 1px;
+   text-align: center;
+}
+h1{
+   margin: 10px;
+   color: rgb(250, 188, 96);
+   text-align: center;
+}
+
+h2{
+    color: black;
+}
+
+h4{
+    margin: 10px;
+    text-align: center;
+}
+
+#contenu2{
+   border: solid transparent;
+   text-align: center;
+   color: rgb(4, 4, 4);
+}
+
+.top{
+   border: solid transparent;
+   
+}
+
+#img{
+   display: flex;
+   border: solid 3px transparent;
+   border-radius: 10px;
+   height: 518px;
+   width: 1400px;
+   margin: auto;
+   overflow: auto;
+}
+
+#photo1{
+   border: solid 1px transparent;
+   width: 900px;
+   height: 500px;
+   border-radius: 10px;
+}
+
+#photo2{
+   border: solid 1px transparent;
+   width: 900px;
+   height: 500px;
+   border-radius: 10px;
+}
+
+#photo3{
+   border: solid 1px transparent;
+   width: 900px;
+   height: 500px;
+   border-radius: 10px;
+}
+
+#photo4{
+   border: solid 1px transparent;
+   width: 900px;
+   height: 500px;
+   border-radius: 10px;
+}
+
+#photo5{
+   border: solid 1px transparent;
+   width: 900px;
+   height: 500px;
+   border-radius: 10px;
+}
+
+table{
+   width: 500px;
+   float: left;
+   color: white;
+}
+table a{
+   text-decoration: none;
+   color: rgb(250, 188, 96);
+}
+
+#crt{
+   width: 250px;
+   float: right;
+}
+
+#golf{
+    float: inline-start;
+    margin-right: 10px;
+    border: solid rgba(250, 188, 96, 0.144);
+}
+#txt1{
+    border: solid transparent;
+    height: 176px;
+    width: 600px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+#txt2{
+    border: solid transparent;
+    height: 176px;
+    width: 600px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+#txt3{
+    border: solid transparent;
+    height: 215px;
+    width: 600px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+#txt4{
+    border: solid transparent;
+    height: 290px;
+    width: 600px;
+    text-align: start;
+    margin-left: 10px;
+}
+#txt5{
+    border: solid transparent;
+    height: 176px;
+    width: 600px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+#sumo{
+    border: solid rgba(250, 188, 96, 0.144);
+    float: inline-end;
+}
+
+#tennis{
+    float: inline-start;
+    margin-right: 10px;
+    border: solid rgba(250, 188, 96, 0.144);
+}
+
+#foot{
+    float: inline-end;
+    height: 150px;
+}
+
+#basbl{
+    float: inline-start;
+    margin-right: 10px;
+    height: 120px;
+}
+.aside{
+    border: solid 4px rgba(0, 0, 0, 0.079);
+    border-radius: 10px;
+    margin: auto;
+    height: 1065px;
+}
+
+#img{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 200px;
+}
